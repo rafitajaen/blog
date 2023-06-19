@@ -61,3 +61,8 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Reference
+
+[Configure Nuxt Modules](https://dev.to/tao/adding-eslint-and-prettier-to-nuxt-3-2023-5bg)
+[Google Typescript Style Guide](https://google.github.io/styleguide/tsguide.html)
