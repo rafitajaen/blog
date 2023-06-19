@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "env": { "browser": true, "es2021": true, "node": true },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-recommended",
+    "@nuxtjs/eslint-config-typescript",
+    "google" // To use Google style in conjunction with ESLint's recommended rule set, extend them both, making sure to list google last.
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module" // Allows for the use of imports
+  },
+  "plugins": ["@typescript-eslint", "vue"],
+  "rules": {
+    "semi": ["error", "always"]
+  }
+}
